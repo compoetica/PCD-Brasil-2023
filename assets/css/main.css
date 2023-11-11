@@ -1,0 +1,186 @@
+/* Fontes
+--------------------------------------*/
+
+
+/* Variaveis
+--------------------------------------*/
+
+/* Geral
+--------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--base-font);
+  font-size: var(--base-font-size);
+  background-color: var(--cor-creme);
+  color: var(--cor-roxo);
+}
+
+a, a:visited {
+  color: var(--cor-rosa);
+}
+
+a:hover, a:focus {
+  opacity: 0.7;
+  transition: opacity ease-in-out;
+}
+
+h1, h2, h3, h4 {
+  margin: var(--base-espaco-p) 0;
+  color: var(--cor-verde);
+}
+
+h1, .txt-g {
+  margin-top: 0;
+  font-size: var(--base-font-size-g);
+  font-family: var(--base-font-strong);
+  text-transform: uppercase;
+}
+
+h2, .txt-m {
+  font-size: var(--base-font-size-m);
+  font-family: var(--base-font-strong);
+  text-transform: uppercase;
+}
+
+p {
+  margin: var(--base-espaco-p) 0;
+  line-height: var(--base-line-height);
+}
+
+li {
+  line-height: var(--base-line-height);
+}
+
+*:last-child {
+  margin-bottom: 0;
+}
+
+.botao-simples {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 3px solid;
+  font-size: var(--base-font-size-m);
+  font-family: var(--base-font-strong);
+}
+
+.botao {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: var(--cor-verde);
+  color: var(--cor-roxo) !important;
+  font-size: var(--base-font-size-p);
+  font-family: var(--base-font-strong);
+  padding: 0.5em 1em;
+  margin-bottom: var(--base-espaco-p);
+}
+
+strong, b {
+  font-family: var(--base-font-strong);
+}
+
+canvas {
+  display: block;
+}
+
+/* Leiaute geral
+--------------------------------------*/
+
+body, html, .pagina {
+  height: 100%;
+}
+
+.conteudo {
+  padding: var(--base-espaco-m);
+  padding-right: var(--base-espaco-lateral);
+}
+
+.cabecalho,
+.home-banner {
+  padding: var(--base-espaco-m);
+  padding-left: var(--base-espaco-m);
+}
+
+.cabecalho {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+@media screen and (min-width: 60rem) {
+  
+  body {
+    overflow-y: hidden;
+  }
+  
+  .pagina {
+    display: flex;
+  }
+
+  .cabecalho {
+    width: 40%;
+  }
+
+  .conteudo {
+    width: calc(100% - 40%);
+    overflow-y: scroll;
+    padding-top: var(--base-espaco-p);
+  }
+
+  .home-banner {
+    width: 40%;
+  }
+
+  .cabecalho,
+  .home-banner {
+    padding-left: var(--base-espaco-lateral);
+  }
+}
+
+
+/* Cabecalho
+--------------------------------------*/
+
+.botao-menu .fechar {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-aberto .menu {
+  display: block;
+}
+
+.menu-aberto .botao-menu .fechar {
+  display: inline;
+}
+
+.menu-aberto .botao-menu .abrir {
+  display: none;
+}
+
+/* Home
+--------------------------------------*/
+
+
+
+
+/* Paginas
+--------------------------------------*/
+
+
+/* Rodapé
+--------------------------------------*/

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+{{ partial "head.html" . }}
+
+<body class="galeria">
+
+  <div class="">
+    {{ partial "cabecalho.html" . }}
+
+
+    <div class="galeria-container">
+      <iframe style="width:100%; height:calc(100vh - 3rem); display: block" src="https://esperanc.github.io/pcd-gallery-2022/" frameborder="0"></iframe>
+    </div>
+
+    <button id="lista-botao">i</button>
+
+    <div id="lista-obras" class="lista-obras-wrapper ">
+    <div class="lista-obras-container">
+      
+      <div class="lista-obra-top">
+        <button id="lista-fechar">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="var(--cor-roxo)"/>
+            <rect x="8" y="9" width="2" height="20" transform="rotate(-45 8 9)" fill="var(--cor-verde)"/>
+            <rect x="9" y="24" width="2" height="20" transform="rotate(-135 9 24)" fill="var(--cor-verde)"/>
+          </svg>   
+        </button>
+      </div>
+      <div class="galeria-titulo">
+        <span>Galeria Virtual</span>
+        <span>Processing Community Day</span>
+        <span>Brasil</span>
+      </div>
+      <div class="galeria-data">
+        Abertura 11 de Novembro de 2022
+      </div>
+      <ul class="lista-obras">
+        {{ range $.Site.Data.ObrasGaleria }}
+        <li class="lista-obra">
+          <div class="obra-autoria">{{ .Nome }}</div>
+          <div class="obra-titulo">{{ .NomeObra }}</div>
+          <!-- <div><a href="artista.link">Ver</a></div> -->
+        </li>
+        {{ end }} 
+      </ul>
+    </div> 
+    </div>
+    <script>
+    let lista_obras = document.getElementById("lista-obras");
+    let botao_lista = document.getElementById("lista-botao");
+    let botao_fechar = document.getElementById("lista-fechar");
+
+    botao_lista.onclick = function() {
+      if ( -1 !== lista_obras.className.indexOf( 'aberto' ) ) {
+        lista_obras.className = lista_obras.className.replace( ' aberto', '' );
+        button.setAttribute( 'aria-expanded', 'false' );
+      } else {
+        lista_obras.className += ' aberto';
+        lista_obras.setAttribute( 'aria-expanded', 'true' );
+      }
+    };
+
+    botao_fechar.onclick = function() {
+      console.log("click container")
+      if ( -1 !== lista_obras.className.indexOf( 'aberto' ) ) {
+          lista_obras.className = lista_obras.className.replace( ' aberto', '' );
+        } else {
+          lista_obras.className += ' aberto';
+        }
+    }
+
+    </script>
+
+    
+  </div>
+
+</body>
+</html>

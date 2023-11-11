@@ -1,0 +1,4 @@
+baseURL = "https://pcd2023.encontrosdigitais.com.br/"
+languageCode = "pt-br"
+title = "Processing Community Day Brasil 2022"
+publishdir = "docs"

@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="conteudo">
+  {{ range .Pages }}
+
+    <p><a href="{{.Permalink}}" class="botao">{{.Title}}</a></p>
+
+  {{ end }}
+</div>
+{{end}}
