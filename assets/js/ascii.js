@@ -81,7 +81,7 @@ function setup() {
   emojis.forEach(e => {
     symbols.push(e);
   });
-  shuffle(symbols);
+  symbols = shuffle(symbols);
 }
 
 function draw() {
