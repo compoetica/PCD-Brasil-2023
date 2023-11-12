@@ -1,4 +1,3 @@
 baseURL = "https://pcd2023.encontrosdigitais.com.br/"
 languageCode = "pt-br"
 title = "Processing Community Day Brasil [<O>] 2023"
-publishdir = "docs"
