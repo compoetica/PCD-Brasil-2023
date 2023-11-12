@@ -2,56 +2,58 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }} : {{ .Site.Title }}</title>
+  <title>{{ .Title }} [<O>] {{ .Site.Title }}</title>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   {{ $style := resources.Get "css/main.css" }}
   {{ $style = $style | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.min.js" integrity="sha512-pgK6Wo8doipc/IPQ0ilH3b47ww01345nR9ud1/6Qp0n+lQlEW9zuw6JhysRcUpBY4yKuVZjn1MAkDxbnncuGsQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   {{ $javascript := resources.Get "js/main.js" }}
   {{ $javascript = $javascript | fingerprint }}
   <script defer src="{{ $javascript.Permalink }}"></script>
 
-  <!-- Social: Facebook / Open Graph -->
+  {{ $javascript_p5js := resources.Get "js/ascii.js" }}
+  {{ $javascript_p5js = $javascript_p5js | fingerprint }}
+  <script defer src="{{ $javascript_p5js.Permalink }}"></script>
 
-  <meta property="og:url" content="https://pcd2022.encontrosdigitais.com.br">
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://pcd2023.encontrosdigitais.com.br">
   <meta property="og:type" content="page">
-  <meta property="og:title" content="{{ .Title }} : Processing Community Day Brasil - 2022">
-  <meta property="og:image" content="https://pcd2022.encontrosdigitais.com.br/images/PCD-Br-2022-OgImage.jpg">
+  <meta property="og:title" content="{{ .Title }} [<O>] Processing Community Day Brasil [<O>] 2023">
+  <meta property="og:image" content="https://pcd2023.encontrosdigitais.com.br/images/PCD-Br-2023-OgImage.jpg">
 
   {{ $og_description := "O Processing Community Day é um evento realizado no mundo todo com o objetivo de promover a interação e celebrar a diversidade de pessoas e tecnologias no universo das artes computacionais." }}
   {{ if .Description }}
    {{ $og_description = .Description }}
   {{ end }}
-
   <meta property="og:description" content="{{ $og_description }}">
-  <meta property="og:site_name" content="Processing Community Day Brasil - 2022">
-
+  <meta property="og:site_name" content="Processing Community Day Brasil [<O>] 2023">
 
   <!-- Social: Twitter -->
-
   <meta name="twitter:card" content="summary_large_image"> 
   <meta name="twitter:title" content="{{ .Title }} : Processing Community Day Brasil - 2022">
   <meta name="twitter:description" content="{{ $og_description }}">
-  <meta property="twitter:image:src" content="https://pcd2022.encontrosdigitais.com.br/images/PCD-Br-2022-OgImage.jpg">
+  <meta property="twitter:image:src" content="https://pcd2023.encontrosdigitais.com.br/images/PCD-Br-2022-OgImage.jpg">
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="57x57" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  HREF="https://pcd2022.encontrosdigitais.com.br/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/favicon-16x16.png">
-  <link rel="manifest" HREF="https://pcd2022.encontrosdigitais.com.br/favicons/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  HREF="https://pcd2023.encontrosdigitais.com.br/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/favicon-16x16.png">
+  <link rel="manifest" HREF="https://pcd2023.encontrosdigitais.com.br/favicons/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="https://pcd2022.encontrosdigitais.com.br/favicons/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="https://pcd2023.encontrosdigitais.com.br/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
 </head>

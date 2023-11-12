@@ -1,10 +1,8 @@
 {{ define "main" }}
-<video id="background-video" autoplay loop muted poster="{{ .Site.BaseURL }}videos/video-poster.jpg">
-  <source src="{{ .Site.BaseURL }}videos/fundo.mp4" type="video/mp4">
-</video>
-<div class="home-banner">
+<div id="hero" class="hero">
+  <div id="p5js-container"></div> 
+</div>
+<div class="conteudo">
   {{.Content}}
-
-  {{ partial "rodape.html" }}
 </div>
 {{end}}

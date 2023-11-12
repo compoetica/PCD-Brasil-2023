@@ -3,15 +3,12 @@
 
 {{ partial "head.html" . }}
 
-<body class="menu-completo {{ if .IsHome }}home{{ end }}">
-
-  <div class="pagina">
-
+<body class="{{ if .IsHome }}home{{ end }}">
+  <main class="site">
     {{ partial "cabecalho.html" . }}
-
     {{ block "main" . }}
     {{ end }}
-  </div>
-
+    {{ partial "rodape.html" }}
+    </main>
 </body>
 </html>
