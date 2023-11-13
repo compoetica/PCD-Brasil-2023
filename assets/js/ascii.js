@@ -119,9 +119,9 @@ function init() {
 function imageToAscii(c) {
   c.loadPixels();
 	background(0);
-	for (let j = 0; j < c.height; j++) {
-		for (let i = 0; i < c.width; i++) {
-			const pixelIndex = ((j * c.width) + i) * 4;
+	for (let i = 0; i < c.height; i++) {
+		for (let j = 0; j < c.width; j++) {
+			const pixelIndex = ((i * c.width) + j) * 4;
 			const r = c.pixels[pixelIndex];
 			const g = c.pixels[pixelIndex + 1];
 			const b = c.pixels[pixelIndex + 2];
