@@ -14,9 +14,11 @@
   {{ $javascript = $javascript | fingerprint }}
   <script defer src="{{ $javascript.Permalink }}"></script>
 
+  {{ if .IsHome }}
   {{ $javascript_p5js := resources.Get "js/ascii.js" }}
   {{ $javascript_p5js = $javascript_p5js | fingerprint }}
   <script defer src="{{ $javascript_p5js.Permalink }}"></script>
+  {{ end }}
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="https://pcd2023.encontrosdigitais.com.br">

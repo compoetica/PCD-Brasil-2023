@@ -48,8 +48,10 @@
 
 body {
   font-family: var(--base-font-family);
-  font-variation-settings: 'wght' 500, 'opsz' 8;
+  font-variation-settings: 'wght' 400, 'opsz' 8;
+  font-size: 1.2rem;
   background-color: var(--cor-preto);
+  color: var(--cor-roxo);
   overflow-x: hidden;
 }
 
@@ -57,6 +59,7 @@ body {
   padding: 0.2rem 0.5em;
   text-transform: uppercase;
   font-size: var(--base-font-size);
+  font-variation-settings: 'wght' 500, 'opsz' 8;
   line-height: var(--base-color-lineheight);
   color: var(--cor-preto);
   background-color: var(--cor-verde-claro);
@@ -75,7 +78,9 @@ body {
   overflow: hidden;
   position: relative;
   font-size: var(--base-font-size);
+  font-variation-settings: 'wght' 500, 'opsz' 8;
   line-height: var(--base-color-lineheight);
+  color: var(--cor-preto);
 }
 
 .divisoria span {
@@ -83,15 +88,37 @@ body {
   padding: 0.2rem 0.5em;
   text-transform: uppercase;
   left: 50%;
-  top: 0;
+  top: -0.14em;
   width: 120vw;
   transform: translate(-50%, 0);
+}
+
+h1, h2, h3, h4 {
+  font-variation-settings: 'wght' 500;
+  text-transform: uppercase;
+  margin: 1.5em 0 1em 0;
+  color: var(--cor-vermelho);
+}
+
+h4 {
+  color: var(--cor-verde-claro);
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul {
+  padding-left: 1em;
+  margin-bottom: 1em;
+  list-style-type: square;
 }
 
 /* Cabecalho
 --------------------------------------*/
 
-header {
+.cabecalho {
   text-transform: uppercase;
   position: fixed;
   left: 0;
@@ -111,6 +138,13 @@ header {
 
 /* Paginas
 --------------------------------------*/
+
+.conteudo {
+  max-width: 60ch;
+  margin: auto;
+  line-height: 1.5em;
+  padding: 4rem 0;
+}
 
 /* Rodapé
 --------------------------------------*/
