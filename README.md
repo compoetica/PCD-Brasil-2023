@@ -14,12 +14,8 @@ Para colaborar na edição do site é necessário alguns conhecimentos sobre Git
 
 `hugo server`
 
-3. O GitHub Pages está usando a pasta /docs para publicar o site, então para suas alterações ficarem públicas é necessário fazer um build do site. Para isso utilize o comando:
-
-`hugo`
+3. Ao realizar algum commit na branch 'main' o GitHub irá fazer o build do site e atualizar o GitHub Pages. Recomendo desenvolver alterações na branch 'dev' e só realizar o commit quando estiver as alterações revisadas.
 
 # Importante
 
-1. Nunca faça alterações nos arquivos dentro da pasta `doc`, pois esse conteúdo é gerado automaticamente pelo Hugo.
-
-2. A maior parte do conteúdo está dentro das pastas content ou data.
+A maior parte do conteúdo site está dentro das pastas content ou data.
