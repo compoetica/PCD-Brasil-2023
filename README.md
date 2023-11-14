@@ -1,6 +1,6 @@
-# Processing Community Day Brasil 2022
+# Processing Community Day Brasil 2023
 
-Este é o repositório que abriga os códigos do site da edição de 2022 do Processing Community Day Brasil.
+Este é o repositório que abriga os códigos do site da edição de 2023 do Processing Community Day Brasil.
 
 O site foi construído utilizando o gerador de sites estáticos [Hugo](https://gohugo.io/) e estado hospedado aqui no GitHub.
 
