@@ -12,7 +12,7 @@ Para colaborar na edição do site é necessário alguns conhecimentos sobre Git
 
 2. Para rodar o site localmente utilize o comando:
 
-`hugo server`
+`hugo server -D --baseURL "localhost"`
 
 3. Ao realizar algum commit na branch 'main' o GitHub irá fazer o build do site e atualizar o GitHub Pages. Recomendo desenvolver alterações na branch 'dev' e só realizar o commit quando estiver as alterações revisadas.
 
