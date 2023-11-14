@@ -29,6 +29,6 @@ Essa edição foi organizada pela comunidade Processing Brasil, uma comunidade v
 
 ### Encontros Digitais
 
-O Processing Community Day Brasil 2022 é também uma iniciativa da plataforma Encontros Digitais, um espaço de aprendizado em arte e tecnologia, tem como objetivo fortalecer a comunidade de artistas-programadores do Brasil, através da criação de ferramentas que ajudem na comunicação e compartilhamento de conhecimento.
+O Processing Community Day Brasil 2023 é também uma iniciativa da plataforma Encontros Digitais, um espaço de aprendizado em arte e tecnologia, tem como objetivo fortalecer a comunidade de artistas-programadores do Brasil, através da criação de ferramentas que ajudem na comunicação e compartilhamento de conhecimento.
 
 Participe: [https://encontrosdigitais.com.br](https://encontrosdigitais.com.br)

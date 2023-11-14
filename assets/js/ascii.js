@@ -28,14 +28,18 @@ const chars = [
 
 const emojis = [
   ['📘','📘','📕','📕','📗','📗'],
-  ['🖤','🤎','💜','💙','💚','🧡','💛','❤','🤍'],
-  ['😭','🙁','😔','😑','😐','🙂','😊','😄','😁'],
-  ['🐵','🐶','🐺','🦊','🦝','🐱','🦁','🐯','🐴','🦄','🦓','🐮','🐷','🐗','🦒','🐭','🐹','🐰','🐻','🐨','🐼','🐔','🐸','🐠','🐌','🦋','🐛','🐜','🐝'],
+  ['🖤','🤎','💜','💙','💚','🧡'],
+  ['😭','🙁','😑','🙂','😊','😄','😁'],
+  ['🐵','🐶','🐺','🦊','🦝','🐱','🦁'],
+  ['🐯','🐴','🦄','🦓','🐮','🐷','🐗'],
+  ['🦒','🐭','🐹','🐰','🐻','🐨','🐼'],
+  ['🐔','🐸','🐠','🐌','🦋','🐛','🐜','🐝'],
   ['🌹','🌹','🌻','🌼','🌷','🌷'],
   ['⛈','🌤','🌥','🌦','🌧','🌨','🌩'],
-  ['🍇','🍉','🍊','🍋','🍌','🍍','🥭','🍎','🍐','🍑','🍒','🍓'],
+  ['🍇','🍉','🍊','🍋','🍌','🍐','🍍','🥭','🍎','🍑','🍒','🍓'],
   ['⚽','⚾','🥎','🏀','🏐','🏈','🏉','🎱'],
-  ['📞','📟','📠','🔋','🔌','💻','💽','💾','💿','📀','🧮','🎥','📺','📸','📹','📼'],
+  ['💽','💾','💿','📀'],
+  ['📞','📟','📠','🔋','🔌','💻','🧮','🎥','📺','📸','📹','📼'],
 ]
 
 /* PARAMETROS ASCII */
@@ -44,7 +48,7 @@ let symbols;
 let chars_index = 2;
 let proportion;
 let grid_columns, grid_rows;
-let grid_size_ref = 30;
+let grid_size_ref = 10;
 let cell_size;
 let buffer;
 const modes = [
@@ -63,6 +67,7 @@ const camHeight = 240;
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
 	canvas.parent("p5js-container");
+  pixelDensity(1);
 
   init();
 
@@ -121,18 +126,19 @@ function init() {
 function imageToAscii(c) {
   c.loadPixels();
 	background(0);
-	for (let j = 0; j < c.height; j++) {
-		for (let i = 0; i < c.width; i++) {
-			const pixelIndex = ((j * c.width) + i) * 4;
+	for (let j = 0; j < grid_rows; j++) {
+		for (let i = 0; i < grid_columns; i++) {
+			const pixelIndex = (i + j * grid_columns) * 4;
 			const r = c.pixels[pixelIndex];
 			const g = c.pixels[pixelIndex + 1];
 			const b = c.pixels[pixelIndex + 2];
-			let glifo_index = floor((r+g+b) / maxColor * (symbols[chars_index].length-1));
+      let cinza = (r+g+b) / maxColor;
+			let glifo_index = floor(cinza * (symbols[chars_index].length-1));
       let glifo = symbols[chars_index][glifo_index];
-      let cor = floor((r+g+b) / maxColor * (paleta.length-1));
+      let cor = floor(cinza * (paleta.length-1));
       let x = i * cell_size;
       let y = j * cell_size;
-      fill(paleta[cor]);
+      fill(paleta[cor]);      
       strokeWeight(2);
       stroke(paleta[cor]);
       rect(x, y, cell_size, cell_size)
