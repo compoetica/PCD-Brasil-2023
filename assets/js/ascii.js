@@ -15,15 +15,6 @@ const paleta = [
   '#57fdfd',
 ]
 
-const paleta = [
-  '#000000',
-  '#4e57fa',
-  '#fd5554',
-  '#52fe54',
-  '#fbfc01',
-  '#57fdfd',
-]
-
 const chars = [  
   '●●●●●○○○○○',
   '%%%%::::....',
