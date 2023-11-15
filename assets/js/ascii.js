@@ -48,7 +48,7 @@ let symbols;
 let chars_index = 2;
 let proportion;
 let grid_columns, grid_rows;
-let grid_size_ref = 10;
+let grid_size_ref = 16;
 let cell_size;
 let buffer;
 const modes = [
@@ -65,7 +65,7 @@ const camWidth = 320;
 const camHeight = 240;
 
 function setup() {
-  let canvas = createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas(windowWidth, windowHeight / 2 );
 	canvas.parent("p5js-container");
   pixelDensity(1);
 
@@ -112,7 +112,7 @@ function draw() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, windowHeight / 2);
 }
 
 function init() {
