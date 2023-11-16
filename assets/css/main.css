@@ -52,6 +52,7 @@ body {
   font-size: 1.2rem;
   background-color: var(--cor-preto);
   color: var(--cor-roxo);
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -163,10 +164,43 @@ iframe {
   display: block;
 }
 
+.secao {
+  font-size: 1.4rem;
+}
+
+.secao-titulo {
+  margin: 0 0 2rem 0;
+}
+
+.secao-conteudo {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 60rem) {
+
+  .secao {
+    /* display: flex; */
+  }
+
+  .secao-header {
+    /* width: 50%; */
+  }
+
+  .secao-conteudo {
+    width: 50%;
+    margin: auto;
+  }
+
+}
+
+
 /* Paginas
 --------------------------------------*/
+.conteudo { 
+  padding: 0 2rem;
+}
 
-.conteudo {
+.conteudo-inner {
   max-width: 60ch;
   margin: auto;
   line-height: 1.5em;
