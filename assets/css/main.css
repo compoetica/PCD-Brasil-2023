@@ -110,6 +110,11 @@ p {
   margin-bottom: 1em;
 }
 
+strong {
+  font-variation-settings: 'wght' 800, 'opsz' 8;
+  color: var(--cor-azul-claro);
+}
+
 a:link,
 a:visited {
   color: var(--cor-azul-claro);
@@ -165,7 +170,7 @@ iframe {
 }
 
 .secao {
-  
+
 }
 
 .secao-titulo {
