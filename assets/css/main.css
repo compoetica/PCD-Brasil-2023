@@ -13,11 +13,11 @@
 
 :root {
   --cor-preto: #000000;
-  --cor-roxo: #4e57fa;
+  --cor-azul: #3399ff;
   --cor-vermelho: #fd5554;
   --cor-verde-claro: #52fe54;
   --cor-amarelo: #fbfc01;
-  --cor-azul: #57fdfd;
+  --cor-azul-claro: #57fdfd;
   --base-font-family: 'TASA-Orbiter', sans-serif;
   --base-font-size: 1.4rem;
   --base-color-lineheight: calc(var(--base-font-size) * 1.4);
@@ -49,9 +49,9 @@
 body {
   font-family: var(--base-font-family);
   font-variation-settings: 'wght' 400, 'opsz' 8;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   background-color: var(--cor-preto);
-  color: var(--cor-roxo);
+  color: var(--cor-azul);
   width: 100%;
   overflow-x: hidden;
 }
@@ -112,7 +112,7 @@ p {
 
 a:link,
 a:visited {
-  color: var(--cor-azul);
+  color: var(--cor-azul-claro);
 }
 
 a:hover,
@@ -152,7 +152,7 @@ iframe {
 
 .hero {
   width: 100%;
-  background-color: var(--cor-azul);
+  background-color: var(--cor-azul-claro);
 }
 
 .home .conteudo{
@@ -165,7 +165,7 @@ iframe {
 }
 
 .secao {
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
 }
 
 .secao-titulo {
@@ -201,7 +201,7 @@ iframe {
 }
 
 .conteudo-inner {
-  max-width: 60ch;
+  max-width: 50ch;
   margin: auto;
   line-height: 1.5em;
   padding: 4rem 0;
