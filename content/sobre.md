@@ -7,11 +7,11 @@ draft: false
 
 O Processing Community Day Brasil 2023 é um evento que reúne comunidades interessadas em criatividade computacional a partir da plataforma Processing, uma tecnologia democratizadora, aberta e acessível que viabiliza a expressão artístico-multimidiática a quaisquer pessoas. Idealizado pela Processing Foundation, o evento Processing Community Day (PCD) ocorre em diversas cidades do mundo onde existem comunidades de artistas e entusiastas organizadas em torno da plataforma.
 
-Neste ano, ainda em contexto de pandemia e isolamento social, comunidades de diversas cidades brasileiras se reuniram para organizar um PCD nacional e online, com o intuito de integrar e descentralizar a comunidade de artistas e criativos de tecnologia, e ao mesmo tempo ser um farol para a produção brasileira através da plataforma, sobretudo entre semelhanças e diferenças presentes na diversidade criativa.
+Em 2021 e 2022, ainda em contexto de pandemia e isolamento social, comunidades de diversas cidades brasileiras se reuniram para organizar um PCD nacional e online, com o intuito de integrar e descentralizar a comunidade de artistas e criativos de tecnologia, e ao mesmo tempo ser um farol para a produção brasileira através da plataforma, sobretudo entre semelhanças e diferenças presentes na diversidade criativa.
 
-Como em todos os lugares, este é um evento anual que promove a educação em linguagens digitais criativas, acolhendo interessados, estudantes e entusiastas no campo da criatividade computacional. Além disso, celebra as poéticas eletrônicas e computacionais através da cooperação e compartilhamento de conhecimento e experiências, danto visibilidade à obra de artistas e profissionais criativos atuando com a plataforma e seus diversos desdobramentos.
+Este é um evento anual que promove a educação em linguagens digitais criativas, acolhendo interessados, estudantes e entusiastas no campo da criatividade computacional. Além disso, celebra as poéticas eletrônicas e computacionais através da cooperação e compartilhamento de conhecimento e experiências, danto visibilidade à obra de artistas e profissionais criativos atuando com a plataforma e seus diversos desdobramentos.
 
-O PCD2022 Brasil ocorrerá em novembro, e contará com workshops para iniciantes e entusiastas, artigos, apresentações e uma exposição online de trabalhos de arte eletrônica e computacional. O evento é gratuito e a participação é garantida mediante inscrição online.
+O PCD2023 Brasil ocorrerá 2 de dezembro, online, e contará com diversas atividades. Mais informações sobre a programação serão divuldadas em breve. O evento é gratuito. 
 
 ### Outras edições do PCD no Brasil
 
