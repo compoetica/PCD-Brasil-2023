@@ -11,7 +11,7 @@ Em 2021 e 2022, ainda em contexto de pandemia e isolamento social, comunidades d
 
 Este é um evento anual que promove a educação em linguagens digitais criativas, acolhendo interessados, estudantes e entusiastas no campo da criatividade computacional. Além disso, celebra as poéticas eletrônicas e computacionais através da cooperação e compartilhamento de conhecimento e experiências, danto visibilidade à obra de artistas e profissionais criativos atuando com a plataforma e seus diversos desdobramentos.
 
-O PCD2023 Brasil ocorrerá 2 de dezembro, online, e contará com diversas atividades. Mais informações sobre a programação serão divuldadas em breve. O evento é gratuito. 
+O PCD2023 Brasil ocorrerá 2 de dezembro, online, e contará com diversas atividades. Mais informações sobre a programação serão divulgadas em breve. O evento é gratuito. 
 
 ### Outras edições do PCD no Brasil
 
