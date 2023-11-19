@@ -1,0 +1,62 @@
+[
+  {
+    "horario": "10h",
+    "tipo": "Oficina",
+    "titulo": "Introdução à programação em Javascript",
+    "proponente": "Guilherme Ranoya",
+    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
+    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
+    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
+    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+  },
+  {
+    "horario": "11h",
+    "tipo": "Oficina",
+    "titulo": "Introdução à programação em Javascript",
+    "proponente": "Guilherme Ranoya",
+    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
+    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
+    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
+    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+  },
+  {
+    "horario": "13h",
+    "tipo": "Oficina",
+    "titulo": "Introdução à programação em Javascript",
+    "proponente": "Guilherme Ranoya",
+    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
+    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
+    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
+    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+  },
+  {
+    "horario": "14h",
+    "tipo": "Oficina",
+    "titulo": "Introdução à programação em Javascript",
+    "proponente": "Guilherme Ranoya",
+    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
+    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
+    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
+    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+  },
+  {
+    "horario": "15h",
+    "tipo": "Oficina",
+    "titulo": "Introdução à programação em Javascript",
+    "proponente": "Guilherme Ranoya",
+    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
+    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
+    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
+    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+  },
+  {
+    "horario": "16h",
+    "tipo": "Oficina",
+    "titulo": "Introdução à programação em Javascript",
+    "proponente": "Guilherme Ranoya",
+    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
+    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
+    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
+    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+  }
+]

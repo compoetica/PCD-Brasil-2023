@@ -1,68 +1,65 @@
 [
   {
     "horario": "10h",
-    "tipo": "Oficina",
-    "titulo": "Introdução à programação em Javascript",
-    "proponente": "Guilherme Ranoya",
-    "proponente_url": "https://twitter.com/ranoya ",
-    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
-    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
-    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
-    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+    "proponente": "Alexandre B A Villares",
+    "titulo": "Python científico na programação criativa: o que eu aprendi até agora de numpy para usar nos meus desenhos",
+    "tipo": "Palestra",
+    "descricao": "Alexandre B A Villares utiliza Python para fazer seus desenhos, uma linguagem interpretada que tem a fama de ser lenta. No ecossistema do Python, a biblioteca numpy se destaca como pilar da computação científica, fazendo operações com matrizes de maneira muito eficiente. Nessa palestra Alexandre irá mostrar como usa numpy em seus sketches e como está aprendendo aos poucos a pensar de maneira \"vetorizada\" evitando os lentos laços de repetição do arroz com feijão no Python.",
+    "minibio": "?",
+    "imagem": "AlexandreVillares.jpg"
   },
   {
     "horario": "11h",
-    "tipo": "Oficina",
-    "titulo": "Introdução à programação em Javascript",
-    "proponente": "Guilherme Ranoya",
-    "proponente_url": "https://twitter.com/ranoya ",
-    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
-    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
-    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
-    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
-  },
-  {
-    "horario": "13h",
-    "tipo": "Oficina",
-    "titulo": "Introdução à programação em Javascript",
-    "proponente": "Guilherme Ranoya",
-    "proponente_url": "https://twitter.com/ranoya ",
-    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
-    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
-    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
-    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+    "proponente": "João Generoso",
+    "titulo": "Criando Sistemas de Design com p5.js",
+    "tipo": "Palestra",
+    "descricao": "Palestra sobre o uso do p5.js no design gráfico, mais especificamente da criação de ferramentas que produzam peças gráficas, como geradores de logos e templates para redes sociais.",
+    "minibio": "?",
+    "imagem": "JoaoGeneroso.jpg"
   },
   {
     "horario": "14h",
-    "tipo": "Oficina",
-    "titulo": "Introdução à programação em Javascript",
-    "proponente": "Guilherme Ranoya",
-    "proponente_url": "https://twitter.com/ranoya ",
-    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
-    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
-    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
-    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+    "proponente": "Gustavo Mandolesi",
+    "titulo": "Arte em Alta Velocidade no HTML5 Canvas: Otimizando com WebWorkers e OffscreenCanvas",
+    "tipo": "Palestra",
+    "descricao": "A palestra explora como as tecnologias de HTML5 WebWorkers e OffscreenCanvas podem ser aplicadas para melhorar o desempenho na criação de arte digital. Será apresentada uma técnica que emprega múltiplos OffscreenCanvas processados em paralelo para compor imagens complexas, semelhante ao uso de camadas em um aplicativo de edição gráfica.\n\nAtravés de exemplos visuais e demonstrações em código, os participantes poderão ver esses conceitos em prática. O objetivo é oferecer aos programadores e designers novas perspectivas sobre a arte gerativa na Web e como essas tecnologias podem otimizar seus processos criativos.",
+    "minibio": "?",
+    "imagem": "GustavoMandolesi.jpg"
   },
   {
     "horario": "15h",
-    "tipo": "Oficina",
-    "titulo": "Introdução à programação em Javascript",
-    "proponente": "Guilherme Ranoya",
-    "proponente_url": "https://twitter.com/ranoya ",
-    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
-    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
-    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
-    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+    "proponente": "Barbara Castro e convidados",
+    "titulo": "Programação criativia no ensino de design",
+    "tipo": "Mesa de Conversa",
+    "descricao": "Barbara Castro convida Jésus Baro, Renato Gaudioso e Daniela Tinocco para discutirem como o acesso a disciplinas de programação criativa durante a graduação impactam na aprendizagem, ensino e atuação profissional no campo do design.",
+    "minibio": "**Barbara Castro**, professora adjunta da Escola Superior de Desenho Industrial e diretora de criação da Ambos&&.\n\n**Jésus Baro**, estudante de design na ESDI/UERJ.\n\n**Renato Gaudioso**, formado em design pela PUC-Rio e atual mestrando na ESDI.\n\n**Daniela Tinocco**, designer formada pela ESDI com passagem pela Super Uber e atual designer do Hospital Sírio-Libanês.",
+    "imagem": "BarbaraCastro.jpg"
   },
   {
     "horario": "16h",
+    "proponente": "João Antonio (John)",
+    "titulo": "Game Jam IV! -Jogos feitos do zero ao vivo!",
     "tipo": "Oficina",
-    "titulo": "Introdução à programação em Javascript",
-    "proponente": "Guilherme Ranoya",
-    "proponente_url": "https://twitter.com/ranoya ",
-    "descricao": "Oficina/Workshop para quem quer dar seus primeiros passos, entender os fundamentos básicos e os contextos/ambientes onde o código Javascript roda. Destinada a quem está migrando do Processing para o P5, para quem está iniciando com o P5, ou pra quem está querendo programar com Javascript puro.",
-    "minibio": "Professor e pesquisador do Programa de Pós-Graduação em Design (PPGDesign) da UFPE na linha de Design da Informação, e professor do Departamento de Design do Centro de Artes e Comunicação da mesma universidade. Líder do Grupo de Pesquisa Integrada em Design e Computação (D+C), colaborador do Grupo de Pesquisa em Design da Informação/UFPE, do Grupo de Pesquisa, Experimentação e Inovação em Arte, Tecnologia e Criatividade (Mustic), e coordenador do Laboratório de Visualização e Sentidos do Nordeste – VISSE.",
-    "url_imagem": "https://pcd2022.encontrosdigitais.com.br/images/Atividade-GuilhermeRanoya.jpg",
-    "url_youtube": "https://www.youtube.com/watch?v=IgcRLUcK-14&list=PLCSyFEVJoho6xaic1oBtiwf8xZCAezIp1&index=2"
+    "descricao": "Nada melhor pra mostrar o poder das nossas ferramentas de programação criativa como criar um jogo do zero em menos de uma hora! Todos os níveis de experiência são bem vindos, o único requisito é o entusiasmo por criar!",
+    "minibio": "?",
+    "imagem": "JoaoAntonio.jpg"
+  },
+  {
+    "horario": "17h",
+    "proponente": "André Burnier",
+    "titulo": "Design Programado",
+    "tipo": "Palestra",
+    "descricao": "Nessa fala André vai compartilhar seu processo de desenvolvimento de ferramentas customizadas para o projetos de design gráfico. Essas ferramentas, desenvolvidas em p5js e JavaScript, geram marcas que reagem ao som, patterns animados e letterings personalizados para identidades visuais contemporâneas.",
+    "minibio": "?",
+    "imagem": "AndreBurnier.jpg"
+  },
+  {
+    "horario": "18h",
+    "proponente": "Marcelo de Oliveira Rosa Prates",
+    "titulo": "AI Art e Direitos Autorais: Debates Críticos e um Chamado à Ação da Comunidade de Arte Generativa",
+    "tipo": "Palestra",
+    "descricao": "A palestra irá abordar sobre: geradores de imagem (Stable Diffusion, DALL-E, Midjourney, entre outros); debates envolvendo direitos autorais; aspectos de divulgação científica sobre os datasets utilizados no treinamento desses modelos; ferramentas à disposição de artistas para auditoria de modelos de geração de imagem; e proteção contra a raspagem dos seus dados para o treinamento dessas ferramentas. Também será trazida perspectivas para experimentações com AI Art conduzidas de maneira ética, com exemplos de trabalhos próprios e de outros artistas que fogem à regra dos modelos e serviços estabelecidos.",
+    "minibio": "?",
+    "imagem": "MarceloPrates.jpg"
   }
 ]

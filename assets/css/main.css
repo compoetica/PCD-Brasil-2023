@@ -20,19 +20,20 @@
   --cor-azul-claro: #57fdfd;
   --base-font-family: 'TASA-Orbiter', sans-serif;
   --base-font-size: 1.4rem;
+  --base-lineheight: 1.2em;
   --base-color-lineheight: calc(var(--base-font-size) * 1.4);
 }
 
 @media screen and (min-width: 25rem) {
   :root {
-    --base-font-size: 2rem;
+    --base-font-size: 1.5rem;
     --base-color-lineheight: calc(var(--base-font-size) * 1.35);
   }
 }
 
 @media screen and (min-width: 60rem) {
   :root {
-    --base-font-size: 2.4rem;
+    --base-font-size: 2rem;
     --base-color-lineheight: calc(var(--base-font-size) * 1.31);
   }
 }
@@ -49,7 +50,8 @@
 body {
   font-family: var(--base-font-family);
   font-variation-settings: 'wght' 400, 'opsz' 8;
-  font-size: 1.4rem;
+  font-size: var(--base-font-size);
+  line-height: var(--base-lineheight);
   background-color: var(--cor-preto);
   color: var(--cor-azul);
   width: 100%;
@@ -70,11 +72,11 @@ body {
 
 .inline > * {
   display: inline;
-  flex-wrap: wrap;
 }
 
 .divisoria {
   width: 100vw;
+  max-width: 100%;
   height: var(--base-color-lineheight);
   overflow: hidden;
   position: relative;
@@ -113,6 +115,12 @@ p {
 strong {
   font-variation-settings: 'wght' 800, 'opsz' 8;
   color: var(--cor-azul-claro);
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
 }
 
 a:link,
@@ -208,8 +216,33 @@ iframe {
 .conteudo-inner {
   max-width: 50ch;
   margin: auto;
-  line-height: 1.5em;
+  line-height: var(--base-lineheight);
   padding: 4rem 0;
+}
+
+/* Programação
+--------------------------------------*/
+
+.programacao-item {
+  /* margin: 3rem 0; */
+}
+
+.programacao-item-horario {
+  margin-bottom: 1rem;
+}
+
+.programacao-item-titulo {
+  margin-top: 0;
+  line-height: var(--base-color-lineheight);
+  margin-bottom: 1rem;
+}
+
+.programacao-item-thumb {
+  margin-bottom: 1rem;
+}
+
+.programacao-item-infos span {
+  text-transform: none;
 }
 
 /* Rodapé

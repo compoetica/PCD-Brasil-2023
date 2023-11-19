@@ -1,35 +1,39 @@
 <div class="programacao-itens">
-    {{ range $.Site.Data.programacao_teste }}
-    <div class="programacao-item">
-
-        <header class="programacao-item-header">
-            <div class="programacao-item-infos">
-                <h4 class="programacao-item-titulo">
-                    {{ if .tipo }}<span class="programacao-item-tipo">{{ .tipo }}: </span>{{ end }}
-                    {{ .titulo }}</h4>
-                <div class="programacao-item-pessoa">{{ .proponente | safeHTML }}</div>
-                <div class="programacao-item-horario">
-                    <p>{{ .horario }}</p>
-                </div>
-            </div>
-            {{ if .url_imagem }}
-            <div class="programacao-item-thumb">
-                <img src="{{ .url_imagem }}" alt="">
-            </div>
-            {{ end }}
-        </header>
-        <div class="infoextra">
-            <div class="programacao-item-description">
-                {{ replace .descricao "\n" "<br />" | safeHTML }}
-            </div>
+  {{ range $.Site.Data.programacao_teste }}
+  <div class="programacao-item">
+    <header class="programacao-item-header">
+      <div class="programacao-item-infos">
+        <div class="programacao-item-horario colorido">
+          <span>{{ .horario }}00</span>
         </div>
-        <div class="cta">
-            {{ if .url_youtube }}
-            <a href="{{ .url_youtube }}" class="botao" target="blank">Assistir no YouTube</a>
-            {{ end }}
-        </div>
+        <h4 class="programacao-item-titulo colorido">
+          {{ if .tipo }}<span class="programacao-item-tipo">{{ .tipo }} </span>{{ end }}<!--
+          --><span>{{ .titulo }} </span><span class="programacao-item-pessoa">{{ .proponente | safeHTML }}</span>
+        </h4>
+      </div>
+      {{ if .imagem }}
+      <div class="programacao-item-thumb">
+        <img src='{{ absURL "" }}images/{{ .imagem }}' alt="" />
+      </div>
+      {{ end }}
+    </header>
+    <div class="infoextra">
+      <div class="programacao-item-description">
+        <!-- {{ replace .descricao "\n" "<br />" | safeHTML }} -->
+        {{ .descricao | markdownify }}
+      </div>
+      <div class="programacao-item-minibios">
+        <!-- {{ replace .descricao "\n" "<br />" | safeHTML }} -->
+        {{ .minibio | markdownify }}
+      </div>
     </div>
-    
-    {{ end }}
+    <div class="cta">
+      <a href="{{ .url_youtube }}" class="botao" target="blank"
+        >Assistir no YouTube</a
+      >
+    </div>
+    <div class="divisoria"><span>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></div>
+  </div>
 
+  {{ end }}
 </div>
