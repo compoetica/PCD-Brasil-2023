@@ -1,7 +1,7 @@
 ---
 title: "Programação"
 draft: false
-description: "Confira a programação completa do Processing Community Day 2022 que acontece nos dias 11, 12 e 13 de novembro com oficinas e palestras sobre programação criativa. Tudo gratuito e online."
+description: "Confira a programação completa do Processing Community Day 2023 que acontece no dia 2 de dezembro com oficinas e palestras sobre programação criativa. Tudo gratuito e online."
 ---
 
 O Processing Community Day Brasil 2023 acontecerá dia **2 de dezembro** com todas as atividades transmitidas no [YouTube Processing Brasil](https://www.youtube.com/@ProcessingCommunityDayBrasil).
