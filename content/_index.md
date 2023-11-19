@@ -8,7 +8,7 @@ draft: false
 
 O Processing Community Day é um evento realizado no mundo todo com o objetivo de promover a interação e celebrar a diversidade de pessoas e tecnologias no universo das artes computacionais.
 
-Saiba mais sobre o [evento aqui](/sobre).
+{{< botao "Saiba mais" "/sobre" >}}
 
 {{</ secao >}}
 
@@ -16,7 +16,13 @@ Saiba mais sobre o [evento aqui](/sobre).
 
 {{< secao "programação" >}}
 
-Em breve ☁ ▅▒░☼‿☼░▒▅ ☁
+O Processing Community Day Brasil 2023 acontecerá dia 2 de dezembro com todas as atividades transmitidas no [YouTube Processing Brasil](https://www.youtube.com/@ProcessingCommunityDayBrasil).
+
+Em breve programação. Tudo gratuito e online.
+
+☁ ▅▒░☼‿☼░▒▅ ☁
+
+<!-- {{< botao "Confira a programação" "/programacao" >}} -->
 
 {{</ secao >}}
 
@@ -26,6 +32,6 @@ Em breve ☁ ▅▒░☼‿☼░▒▅ ☁
 
 Essa edição foi organizada pela comunidade Processing Brasil, uma comunidade voltada a programação criativa, aberta a diversidade de pessoas e tecnologias.
 
-[Clique para participar da comunidade brasileira de programação criativa](/comunidade).
+{{< botao "Saiba mais" "/comunidade" >}}
 
 {{</ secao >}}
