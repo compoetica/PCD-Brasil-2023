@@ -16,7 +16,9 @@ Saiba mais sobre o [evento aqui](/sobre).
 
 {{< secao "programação" >}}
 
-Em breve ☁ ▅▒░☼‿☼░▒▅ ☁
+O Processing Community Day Brasil 2023 acontecerá dia 2 de dezembro com todas as atividades transmitidas no [YouTube Processing Brasil](https://www.youtube.com/@ProcessingCommunityDayBrasil).
+
+{{< botao "Confira a programação" "/programacao" >}}
 
 {{</ secao >}}
 

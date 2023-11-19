@@ -19,21 +19,23 @@
   --cor-amarelo: #fbfc01;
   --cor-azul-claro: #57fdfd;
   --base-font-family: 'TASA-Orbiter', sans-serif;
-  --base-font-size: 1.4rem;
-  --base-color-lineheight: calc(var(--base-font-size) * 1.4);
+  --base-font-size: 1.6rem;
+  --base-font-size-text: 1.2rem;
+  --base-lineheight: 1.2em;
+  --base-color-lineheight: calc(var(--base-font-size) * 1.38);
 }
 
 @media screen and (min-width: 25rem) {
   :root {
-    --base-font-size: 2rem;
-    --base-color-lineheight: calc(var(--base-font-size) * 1.35);
+    --base-font-size: 1.5rem;
+    --base-color-lineheight: calc(var(--base-font-size) * 1.41);
   }
 }
 
 @media screen and (min-width: 60rem) {
   :root {
-    --base-font-size: 2.4rem;
-    --base-color-lineheight: calc(var(--base-font-size) * 1.31);
+    --base-font-size: 2rem;
+    --base-color-lineheight: calc(var(--base-font-size) * 1.35);
   }
 }
 
@@ -49,7 +51,8 @@
 body {
   font-family: var(--base-font-family);
   font-variation-settings: 'wght' 400, 'opsz' 8;
-  font-size: 1.4rem;
+  font-size: var(--base-font-size-text);
+  line-height: var(--base-lineheight);
   background-color: var(--cor-preto);
   color: var(--cor-azul);
   width: 100%;
@@ -70,7 +73,6 @@ body {
 
 .inline > * {
   display: inline;
-  flex-wrap: wrap;
 }
 
 .divisoria {
@@ -110,6 +112,17 @@ p {
   margin-bottom: 1em;
 }
 
+strong {
+  font-variation-settings: 'wght' 800, 'opsz' 8;
+  color: var(--cor-azul-claro);
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
 a:link,
 a:visited {
   color: var(--cor-azul-claro);
@@ -128,6 +141,16 @@ ul {
 
 iframe {
   padding-bottom: 3rem;
+}
+
+.botao:link,
+.botao:visited {
+  padding: 0.2rem 0.5em;
+  font-size: var(--base-font-size);
+  font-variation-settings: 'wght' 500, 'opsz' 8;
+  line-height: var(--base-color-lineheight);
+  color: var(--cor-preto);
+  background-color: var(--cor-verde-claro);
 }
 
 /* Cabecalho
@@ -165,7 +188,7 @@ iframe {
 }
 
 .secao {
-  
+
 }
 
 .secao-titulo {
@@ -203,9 +226,49 @@ iframe {
 .conteudo-inner {
   max-width: 50ch;
   margin: auto;
-  line-height: 1.5em;
+  line-height: var(--base-lineheight);
   padding: 4rem 0;
 }
+
+/* Programação
+--------------------------------------*/
+
+.programacao-item {
+  margin: 3rem 0;
+}
+
+.programacao-item-horario {
+  margin-bottom: 1rem;
+}
+
+.programacao-item-titulo {
+  margin-top: 0;
+  font-size: var(--base-font-size);
+  line-height: var(--base-color-lineheight);
+  margin-bottom: 1rem;
+}
+
+.programacao-item-conteudo {
+  margin-bottom: 3rem;
+}
+
+.programacao-item-descricao,
+.programacao-item-minibios {
+  margin-bottom: 1rem;
+}
+
+.programacao-item-thumb {
+  margin-bottom: 1rem;
+}
+
+.programacao-item-infos span {
+  text-transform: none;
+}
+
+.programacao-item .divisoria {
+  max-width: 100%;
+}
+
 
 /* Rodapé
 --------------------------------------*/
