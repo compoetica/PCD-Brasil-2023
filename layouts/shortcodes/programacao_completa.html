@@ -17,8 +17,8 @@
       </div>
       {{ end }}
     </header>
-    <div class="infoextra">
-      <div class="programacao-item-description">
+    <div class="programacao-item-conteudo">
+      <div class="programacao-item-descricao">
         <!-- {{ replace .descricao "\n" "<br />" | safeHTML }} -->
         {{ .descricao | markdownify }}
       </div>
@@ -26,13 +26,10 @@
         <!-- {{ replace .descricao "\n" "<br />" | safeHTML }} -->
         {{ .minibio | markdownify }}
       </div>
+      <div class="cta">
+        <a href="{{ .url_youtube }}" class="botao" target="blank">Assistir no YouTube</a>
+      </div>
     </div>
-    <div class="cta">
-      <a href="{{ .url_youtube }}" class="botao" target="blank"
-        >Assistir no YouTube</a
-      >
-    </div>
-    <div class="divisoria"><span>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></div>
   </div>
 
   {{ end }}
