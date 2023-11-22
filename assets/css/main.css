@@ -193,12 +193,15 @@ iframe {
   display: block;
 }
 
-.secao {
-
-}
-
 .secao-titulo {
   margin: 0 0 2rem 0;
+}
+
+@media screen and (min-width: 60rem) {
+  .secao-titulo {
+    --base-font-size: 2.5rem;
+    --base-color-lineheight: calc(var(--base-font-size) * 1.35);
+  }
 }
 
 .secao-conteudo {

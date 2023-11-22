@@ -20,9 +20,9 @@ O Processing Community Day Brasil 2023 acontecerá dia 2 de dezembro com todas a
 
 Em breve programação. Tudo gratuito e online.
 
-☁ ▅▒░☼‿☼░▒▅ ☁
+<!-- ☁ ▅▒░☼‿☼░▒▅ ☁ -->
 
-<!-- {{< botao "Confira a programação" "/programacao" >}} -->
+{{< botao "Confira a programação" "/programacao" >}}
 
 {{</ secao >}}
 
