@@ -24,7 +24,6 @@
   <meta property="og:url" content="https://pcd2023.encontrosdigitais.com.br">
   <meta property="og:type" content="page">
   <meta property="og:title" content="{{ .Title }} :: Processing Community Day Brasil [<O>] 2023">
-  <meta property="og:image" content="https://pcd2023.encontrosdigitais.com.br/images/PCD-Br-2023-OgImage.jpg">
 
   {{ $og_description := "O Processing Community Day é um evento realizado no mundo todo com o objetivo de promover a interação e celebrar a diversidade de pessoas e tecnologias no universo das artes computacionais." }}
   {{ if .Description }}
@@ -32,12 +31,6 @@
   {{ end }}
   <meta property="og:description" content="{{ $og_description }}">
   <meta property="og:site_name" content="Processing Community Day Brasil [<O>] 2023">
-
-  <!-- Social: Twitter -->
-  <meta name="twitter:card" content="summary_large_image"> 
-  <meta name="twitter:title" content="{{ .Title }} : Processing Community Day Brasil - 2022">
-  <meta name="twitter:description" content="{{ $og_description }}">
-  <meta property="twitter:image:src" content="https://pcd2023.encontrosdigitais.com.br/images/PCD-Br-2022-OgImage.jpg">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="57x57" HREF='{{ absURL "" }}favicons/apple-icon-57x57.png'>
