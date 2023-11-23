@@ -16,13 +16,13 @@ O Processing Community Day é um evento realizado no mundo todo com o objetivo d
 
 {{< secao "programação" >}}
 
-O Processing Community Day Brasil 2023 acontecerá dia 2 de dezembro com todas as atividades transmitidas no [YouTube Processing Brasil](https://www.youtube.com/@ProcessingCommunityDayBrasil).
+O Processing Community Day Brasil 2023 acontecerá dia 2 de dezembro com todas as atividades transmitidas no [YouTube](https://www.youtube.com/@ProcessingCommunityDayBrasil).
 
-Em breve programação. Tudo gratuito e online.
+Tudo gratuito e online.
 
-☁ ▅▒░☼‿☼░▒▅ ☁
+<!-- ☁ ▅▒░☼‿☼░▒▅ ☁ -->
 
-<!-- {{< botao "Confira a programação" "/programacao" >}} -->
+{{< botao "Confira a programação" "/programacao" >}}
 
 {{</ secao >}}
 
