@@ -23,7 +23,7 @@
     "titulo": "Arte em Alta Velocidade no HTML5 Canvas: Otimizando com WebWorkers e OffscreenCanvas",
     "tipo": "Palestra",
     "descricao": "A palestra explora como as tecnologias de HTML5 WebWorkers e OffscreenCanvas podem ser aplicadas para melhorar o desempenho na criação de arte digital. Será apresentada uma técnica que emprega múltiplos OffscreenCanvas processados em paralelo para compor imagens complexas, semelhante ao uso de camadas em um aplicativo de edição gráfica.\n\nAtravés de exemplos visuais e demonstrações em código, os participantes poderão ver esses conceitos em prática. O objetivo é oferecer aos programadores e designers novas perspectivas sobre a arte gerativa na Web e como essas tecnologias podem otimizar seus processos criativos.",
-    "minibio": "?",
+    "minibio": "**Gustavo Mandolesi** com uma carreira de mais de 2 décadas como engenheiro de software combina sua paixão pela tecnologia com as artes visuais. Nas horas vagas ele se dedica a explorar o campo do código criativo, desenvolvendo trabalhos que envolvem programação, matemática, impressão 3D e pintura. Seu processo artístico encapsula a ideia de misturar e remisturar elementos dos mundos físico e digital, em uma interação entre homem e máquina onde a criação de um se torna o insumo para a criação do outro.",
     "imagem": "GustavoMandolesi.jpg"
   },
   {
@@ -41,7 +41,7 @@
     "titulo": "Game Jam IV! -Jogos feitos do zero ao vivo!",
     "tipo": "Oficina",
     "descricao": "Nada melhor pra mostrar o poder das nossas ferramentas de programação criativa como criar um jogo do zero em menos de uma hora! Todos os níveis de experiência são bem vindos, o único requisito é o entusiasmo por criar!",
-    "minibio": "?",
+    "minibio": "**João Antonio** programa há 10 anos, dentro do desenvolvimento de games, da software-arte, hardware, ferramentas para desktop entre outras. O gosto por criar com código só é igualado pelo prazer de compartilhar conhecimento com outros! Confira alguns de seus trabalhos aqui: [https://introscopia.github.io/](https://introscopia.github.io/)",
     "imagem": "JoaoAntonio.jpg"
   },
   {

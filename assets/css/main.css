@@ -72,6 +72,11 @@ body {
   box-decoration-break: clone;
 }
 
+.colorido i {
+  display: inline-block;
+  width: 0;
+}
+
 .inline > * {
   display: inline;
 }
