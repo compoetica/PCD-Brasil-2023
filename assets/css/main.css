@@ -200,7 +200,7 @@ iframe {
 @media screen and (min-width: 60rem) {
   .secao-titulo {
     --base-font-size: 2.5rem;
-    --base-color-lineheight: calc(var(--base-font-size) * 1.35);
+    --base-color-lineheight: calc(var(--base-font-size) * 1.33);
   }
 }
 
