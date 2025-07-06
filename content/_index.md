@@ -8,7 +8,7 @@ draft: false
 
 O Processing Community Day é um evento realizado no mundo todo com o objetivo de promover a interação e celebrar a diversidade de pessoas e tecnologias no universo das artes computacionais.
 
-{{< botao "Saiba mais" "/sobre" >}}
+{{< botao "Saiba mais" "https://compoetica.github.io/PCD-Brasil-2023/sobre" >}}
 
 {{</ secao >}}
 
@@ -24,7 +24,7 @@ Tudo gratuito e online.
 
 <!-- ☁ ▅▒░☼‿☼░▒▅ ☁ -->
 
-{{< botao "Confira a programação" "/programacao" >}}
+{{< botao "Confira a programação" "https://compoetica.github.io/PCD-Brasil-2023/programacao" >}}
 
 {{</ secao >}}
 
@@ -34,6 +34,6 @@ Tudo gratuito e online.
 
 Essa edição foi organizada pela comunidade Processing Brasil, uma comunidade voltada a programação criativa, aberta a diversidade de pessoas e tecnologias.
 
-{{< botao "Saiba mais" "/comunidade" >}}
+{{< botao "Saiba mais" "https://compoetica.github.io/PCD-Brasil-2023/comunidade" >}}
 
 {{</ secao >}}

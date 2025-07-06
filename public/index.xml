@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Início on Processing Community Day Brasil [&lt;O&gt;] 2023</title>
+    <link>http://localhost:1313/PCD-Brasil-2023/</link>
+    <description>Recent content in Início on Processing Community Day Brasil [&lt;O&gt;] 2023</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 22 Dec 2020 10:31:37 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/PCD-Brasil-2023/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Código de Conduta</title>
+      <link>http://localhost:1313/PCD-Brasil-2023/codigo-conduta/</link>
+      <pubDate>Tue, 22 Dec 2020 10:31:37 -0300</pubDate>
+      <guid>http://localhost:1313/PCD-Brasil-2023/codigo-conduta/</guid>
+      <description>Participantes do Processing Community Day (PCD), incluindo organizadores, ouvintes, palestrantes, artistas, ministrantes de workshop, alunos, moderadores, apoiadores, patrocinadores e voluntários, devem concordar com o seguinte Código de Conduta.&#xA;O time PCD Brasil é dedicado a promover experiências livres de assédio, independente de gênero, identidade e expressão de gênero, orientação sexual, deficiência, desvantagem mental, aparência física, corpo, idade, raça, etnia, nacionalidade, idioma ou religião. Nós não toleramos assédio de participantes em qualquer forma.</description>
+    </item>
+    <item>
+      <title>Comunidade</title>
+      <link>http://localhost:1313/PCD-Brasil-2023/comunidade/</link>
+      <pubDate>Tue, 22 Dec 2020 10:31:37 -0300</pubDate>
+      <guid>http://localhost:1313/PCD-Brasil-2023/comunidade/</guid>
+      <description>Onde está a comunidade brasileira de programação criativa e artes computacionais? Estamos em vários locais diferentes e você pode fazer parte em qualquer um deles. Todos são espaços horizontais de troca e aprendizados:&#xA;Encontros Digitais https://encontrosdigitais.com.br&#xA;Telegram https://t.me/programacaocriativa&#xA;Instagram https://www.instagram.com/processingbrasil/&#xA;Grupo de email https://groups.google.com/g/processing-brasil&#xA;Noites de Processing https://garoa.net.br/wiki/Noite_de_Processing</description>
+    </item>
+    <item>
+      <title>Programação</title>
+      <link>http://localhost:1313/PCD-Brasil-2023/programacao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/PCD-Brasil-2023/programacao/</guid>
+      <description>O Processing Community Day Brasil 2023 acontecerá dia 2 de dezembro com todas as atividades transmitidas no YouTube.&#xA;A programação foi elaborada com o Horário de Brasília (UTC-03:00).&#xA;10h00 Palestra Python científico na programação criativa: o que eu aprendi até agora de numpy para usar nos meus desenhos Alexandre B A Villares Alexandre Villares usa Python para fazer seus desenhos, uma linguagem interpretada que tem a fama de ser lenta. No ecossistema do Python, a biblioteca numpy se destaca como pilar da computação científica, fazendo operações com matrizes de maneira muito eficiente.</description>
+    </item>
+    <item>
+      <title>Sobre</title>
+      <link>http://localhost:1313/PCD-Brasil-2023/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/PCD-Brasil-2023/sobre/</guid>
+      <description>O Processing Community Day Brasil 2023 é um evento que reúne comunidades interessadas em criatividade computacional a partir da plataforma Processing, uma tecnologia democratizadora, aberta e acessível que viabiliza a expressão artístico-multimidiática a quaisquer pessoas. Idealizado pela Processing Foundation, o evento Processing Community Day (PCD) ocorre em diversas cidades do mundo onde existem comunidades de artistas e entusiastas organizadas em torno da plataforma.&#xA;Em 2021 e 2022, ainda em contexto de pandemia e isolamento social, comunidades de diversas cidades brasileiras se reuniram para organizar um PCD nacional e online, com o intuito de integrar e descentralizar a comunidade de artistas e criativos de tecnologia, e ao mesmo tempo ser um farol para a produção brasileira através da plataforma, sobretudo entre semelhanças e diferenças presentes na diversidade criativa.</description>
+    </item>
+  </channel>
+</rss>

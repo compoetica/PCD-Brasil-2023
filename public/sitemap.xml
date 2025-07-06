@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/PCD-Brasil-2023/codigo-conduta/</loc>
+    <lastmod>2020-12-22T10:31:37-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/PCD-Brasil-2023/comunidade/</loc>
+    <lastmod>2020-12-22T10:31:37-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/PCD-Brasil-2023/</loc>
+    <lastmod>2020-12-22T10:31:37-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/PCD-Brasil-2023/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/PCD-Brasil-2023/programacao/</loc>
+  </url><url>
+    <loc>http://localhost:1313/PCD-Brasil-2023/sobre/</loc>
+  </url><url>
+    <loc>http://localhost:1313/PCD-Brasil-2023/tags/</loc>
+  </url>
+</urlset>
