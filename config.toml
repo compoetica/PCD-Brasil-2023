@@ -1,4 +1,4 @@
-baseURL = 'https://processing-brasil.github.io/PCD-Brasil-2023-Site/'
+baseURL = 'https://compoetica.github.io/PCD-Brasil-2023/'
 languageCode = 'pt-br'
 title = 'Processing Community Day Brasil [<O>] 2023'
 [markup.goldmark.renderer]
